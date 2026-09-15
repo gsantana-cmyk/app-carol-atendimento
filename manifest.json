@@ -7,12 +7,12 @@
   "theme_color": "#254687",
   "icons": [
     {
-      "src": "https://www.totvs.com/wp-content/uploads/2019/06/favicon.png",
+      "src": "/icon.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://www.totvs.com/wp-content/uploads/2019/06/favicon.png",
+      "src": "/icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
