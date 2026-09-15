@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!-- Configuração vital para o celular tratar a página como um app nativo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="theme-color" content="#254687">
+    <title>App Atendimento - TOTVS</title>
+    
+    <style>
+        /* Zera as margens e trava a tela para não rolar fora do iframe */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden; 
+            background-color: #ffffff;
+        }
+
+        /* Faz o iframe ocupar 100% do espaço disponível */
+        .chat-frame {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Link do seu bot rodando no Cloud Run -->
+    <iframe 
+        class="chat-frame"
+        src="https://support-agent-698008485131.us-central1.run.app/" 
+        allow="microphone; camera">
+    </iframe>
+
+</body>
+</html>
